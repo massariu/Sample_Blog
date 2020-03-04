@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+ }
+
+body {
+  background-color: #efefef;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5 {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.wrapper {
+  width: 980px;
+  margin:0 auto;
+  background-color: #fff;
+}
+
+
+header h1 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 3.5;
+}
+
+nav {
+  background-color: #000;
+  color: #fff;
+  padding:10px;
+}
+nav ul {
+  display: flex;
+  margin-right: 40px;
+}
+
+nav ul li {
+  margin-right: 40px;
+  padding: 0 30px;
+  font-size: 16px;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: #efefef;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  margin-left: 30px;
+  justify-content:space-between;
+}
+
+.left-contents {
+  margin-top: 40px;
+  width: 600px;
+}
+
+.blog-article {
+  margin-bottom: 20px ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-left {
+  height:150px ;
+  width:100px;
+}
+.blog-left img {
+  height:150px ;
+  width:100px;
+}
+
+.blog-right {
+  width: 500px;
+  height: 150px;
+  padding: 10px;
+}
+
+.blog-date {
+  width: 500px;
+  font-size: 14px;
+}
+
+.blog-title {
+  width: 500px;
+  height: 30px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.blog-outline {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.right-contents {
+  width: 340px;
+  margin-left: 10px;
+}
+
+.newarticle-title {
+  font-size: 25px;
+  line-height: 1.5;
+  margin-top: 30px;
+  border-bottom: #efefef solid 2px;
+}
+
+.newarticle-article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newarticle-left {
+  width: 60px;
+  height: 60px;
+}
+
+.newarticle-left img {
+  width: 60px;
+  height: 60px;
+}
+
+.newarticle-right {
+  width: 240px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.newarticle-date {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.newarticle-sample {
+  margin-top:10px ;
+  font-size: 14px;
+}
+
+footer {
+  text-align:center;
+  border-top: solid 1.5px #efefef;
+  line-height: 2.0;
+  margin-top: 40px;
+  padding-top: 25px;
+}
+
+footer small {
+  font-size: 10px;
+}
