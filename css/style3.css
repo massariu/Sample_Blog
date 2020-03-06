@@ -105,7 +105,7 @@ main {
 }
 
 .right-contents {
-  width: 340px;
+  width: 330px;
   margin-left: 10px;
 }
 
@@ -119,6 +119,7 @@ main {
 .newarticle-article {
   display: flex;
   justify-content: space-between;
+  margin-top: 5px;
 }
 
 .newarticle-left {
