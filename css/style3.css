@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
- }
+}
 
 body {
   background-color: #efefef;
@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 
-h1,h2,h3,h4,h5 {
+h1, h2, h3, h4, h5 {
   margin: 0 0 10px 0;
   padding: 0;
 }
@@ -21,10 +21,9 @@ img {
 
 .wrapper {
   width: 980px;
-  margin:0 auto;
+  margin: 0 auto;
   background-color: #fff;
 }
-
 
 header h1 {
   text-align: center;
@@ -35,8 +34,9 @@ header h1 {
 nav {
   background-color: #000;
   color: #fff;
-  padding:10px;
+  padding: 10px;
 }
+
 nav ul {
   display: flex;
   margin-right: 40px;
@@ -57,69 +57,75 @@ nav ul li a {
 main {
   display: flex;
   margin-left: 30px;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.left-contents {
+.all {
   margin-top: 40px;
   width: 600px;
+  height: 1000px;
 }
 
-.blog-article {
-  margin-bottom: 20px ;
+.post {
+  margin-bottom: 5%;
   display: flex;
   justify-content: space-between;
 }
 
-.blog-left {
-  height:150px ;
-  width:100px;
-}
-.blog-left img {
-  height:150px ;
-  width:100px;
+.image {
+  width: 20%;
 }
 
-.blog-right {
-  width: 500px;
-  height: 150px;
+.image img {
+  width: 100%;
+}
+
+.content {
+  width: 80%;
   padding: 10px;
 }
 
 .blog-date {
-  width: 500px;
+  width: 100%;
   font-size: 14px;
 }
 
-.blog-title {
-  width: 500px;
-  height: 30px;
-  font-size: 20px;
-  margin-top: 10px;
+.news .blog-date {
+  font-size: 12px;
 }
 
-.blog-outline {
+.blog-title {
+  font-size: 18px;
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+
+}
+
+.news .blog-title {
+  font-size: 14px;
+}
+
+
+.blog-summary {
   font-size: 12px;
   line-height: 1.5;
   margin-top: 10px;
 }
 
-.right-contents {
+.news {
   width: 330px;
   margin-left: 10px;
 }
 
-.newarticle-title {
+.news-title {
   font-size: 25px;
   line-height: 1.5;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   border-bottom: #efefef solid 2px;
-}
-
-.newarticle-article {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 5px;
 }
 
 .newarticle-left {
@@ -144,12 +150,12 @@ main {
 }
 
 .newarticle-sample {
-  margin-top:10px ;
+  margin-top: 10px;
   font-size: 14px;
 }
 
 footer {
-  text-align:center;
+  text-align: center;
   border-top: solid 1.5px #efefef;
   line-height: 2.0;
   margin-top: 40px;
