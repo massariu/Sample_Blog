@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #efefef;
+  background-colorß: #efefef;
   font-size: 14px;
   color: #333;
   margin: 0;
@@ -85,16 +85,16 @@ main {
   padding: 10px;
 }
 
-.blog-date {
+.date {
   width: 100%;
   font-size: 14px;
 }
 
-.news .blog-date {
+.news .date {
   font-size: 12px;
 }
 
-.blog-title {
+.title {
   font-size: 18px;
   margin-top: 10px;
   overflow: hidden;
@@ -103,11 +103,11 @@ main {
   display: block;
 }
 
-.news .blog-title {
+.news .title {
   font-size: 14px;
 }
 
-.blog-summary {
+.summary {
   font-size: 12px;
   line-height: 1.5;
   margin-top: 10px;
